@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact TechGear with questions, feedback, or product enquiries.">
+  <title>TechGear | Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a class="logo" href="index.html">Tech<span>Gear</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="nav-profile"><a class="profile-link" href="account.html" aria-label="Open your TechGear account"><span class="profile-icon" aria-hidden="true">♙</span><span class="profile-text" data-profile-label>Account</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-heading reveal visible">
+        <span class="section-label">Get in touch</span>
+        <h1>We would like to hear from you.</h1>
+        <p>Questions, feedback, or product enquiries? Send us a message and our team will get back to you shortly.</p>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container contact-layout">
+        <aside class="contact-card reveal">
+          <h2>Contact information</h2>
+          <p>Please provide your contact details so we can respond to your enquiry.</p>
+          <div class="contact-details">
+            <div><span>Email</span><strong>support@techgear.com</strong></div>
+            <div><span>Phone</span><strong>+1 234 567 890</strong></div>
+            <div><span>Address</span><strong>123 Tech Street, Silicon Valley</strong></div>
+          </div>
+        </aside>
+
+        <div class="contact-card reveal">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required></div>
+            <div class="form-group"><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required></div>
+            <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" placeholder="How can we help?" required></textarea></div>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <div class="store-note"><strong>We’re here to help</strong><span>Thank you for contacting TechGear. We’ll review your message and get back to you shortly.</span></div>
+            <p class="form-message" id="formMessage" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><div class="footer-brand">Tech<span>Gear</span></div><p>&copy; 2026 TechGear. All rights reserved.</p></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

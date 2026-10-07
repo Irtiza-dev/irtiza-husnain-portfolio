@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse the TechGear technology accessories collection.">
+  <title>TechGear | Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a class="logo" href="index.html">Tech<span>Gear</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="nav-profile"><a class="profile-link" href="account.html" aria-label="Open your TechGear account"><span class="profile-icon" aria-hidden="true">♙</span><span class="profile-text" data-profile-label>Account</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-heading reveal visible">
+        <span class="section-label">The collection</span>
+        <h1>Technology with purpose.</h1>
+        <p>Explore our current selection of gadgets and accessories, from everyday essentials to gaming hardware.</p>
+        <div class="search-bar">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="search" type="search" autocomplete="off" placeholder="Search products, categories, or features..." aria-label="Search products">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="product-grid" id="productGrid">
+          <article class="product-card reveal" data-search="smartwatch pro smartwatch fitness notifications heart rate sleep water resistant">
+            <a class="product-card-media" href="smartwatch.html"><img src="images/smartwatch.png" alt="Smartwatch Pro"></a>
+            <div class="product-card-body"><h3>Smartwatch Pro</h3><p>Track fitness, sleep, heart rate, and notifications throughout your day.</p><div class="product-card-footer"><span class="price">$199</span><a class="card-link" href="smartwatch.html">View details →</a></div></div>
+          </article>
+
+          <article class="product-card reveal" data-search="gaming mouse x200 pro gaming mouse wireless rgb dpi ergonomic precision">
+            <a class="product-card-media" href="mouse.html"><img src="images/mouse.png" alt="Pro Gaming Mouse X200"></a>
+            <div class="product-card-body"><h3>Pro Gaming Mouse X200</h3><p>High-precision control, adjustable DPI, RGB lighting, and ergonomic comfort.</p><div class="product-card-footer"><span class="price">$89</span><a class="card-link" href="mouse.html">View details →</a></div></div>
+          </article>
+
+          <article class="product-card reveal" data-search="wireless earbuds audio battery true wireless ergonomic sound">
+            <a class="product-card-media" href="earbuds.html"><img src="images/earbuds.png" alt="Wireless Earbuds"></a>
+            <div class="product-card-body"><h3>Wireless Earbuds</h3><p>True wireless audio with an ergonomic fit and up to 12 hours of battery life.</p><div class="product-card-footer"><span class="price">$129</span><a class="card-link" href="earbuds.html">View details →</a></div></div>
+          </article>
+
+          <article class="product-card reveal" data-search="mechanical keyboard mk1 keyboard rgb gaming typing">
+            <div class="product-card-media"><span class="product-badge">Available</span><img src="images/keyboard.png" alt="Mechanical Keyboard MK1"></div>
+            <div class="product-card-body"><h3>Mechanical Keyboard MK1</h3><p>Durable mechanical keys and customizable RGB lighting for work and play.</p><div class="product-card-footer"><span class="price">$149</span><span class="card-link">Details soon</span></div></div>
+          </article>
+
+          <article class="product-card reveal" data-search="gaming headset surround sound comfort audio gaming">
+            <div class="product-card-media"><span class="product-badge">Available</span><img src="images/headset.png" alt="Gaming Headset"></div>
+            <div class="product-card-body"><h3>Gaming Headset</h3><p>Comfortable gaming audio with clear surround sound for long sessions.</p><div class="product-card-footer"><span class="price">$99</span><span class="card-link">Details soon</span></div></div>
+          </article>
+
+          <article class="product-card reveal" data-search="hd webcam 1080p webcam streaming work video camera">
+            <div class="product-card-media"><span class="product-badge">Available</span><img src="images/webcam.png" alt="HD Webcam 1080p"></div>
+            <div class="product-card-body"><h3>HD Webcam 1080p</h3><p>Clear video for meetings, streaming, online classes, and everyday work.</p><div class="product-card-footer"><span class="price">$89</span><span class="card-link">Details soon</span></div></div>
+          </article>
+
+          <div class="empty-state" id="emptyState">No products match your search. Try a different keyword.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section coming-soon">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">On the horizon</span>
+          <h2>Coming soon</h2>
+          <p>More experimental technology and accessories will be added to the collection.</p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card is-coming-soon reveal"><div class="product-card-media"><span class="product-badge">Coming soon</span><img src="images/vr.png" alt="Future VR gadget"></div><div class="product-card-body"><h3>Future Gadget 01</h3><p>A glimpse at the next generation of immersive technology.</p><div class="product-card-footer"><span class="price">—</span></div></div></article>
+          <article class="product-card is-coming-soon reveal"><div class="product-card-media"><span class="product-badge">Coming soon</span><img src="images/placeholder2.png" alt="Future TechGear gadget"></div><div class="product-card-body"><h3>Future Gadget 02</h3><p>More details will be revealed as the collection grows.</p><div class="product-card-footer"><span class="price">—</span></div></div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><div class="footer-brand">Tech<span>Gear</span></div><p>&copy; 2026 TechGear. All rights reserved.</p></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
