@@ -163,7 +163,7 @@ body.modal-open {
 .contact-copy h2 em {
   font-style: normal;
   color: var(--accent);
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
 
 .hero-text {
